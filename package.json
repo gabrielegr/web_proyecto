@@ -1,0 +1,24 @@
+{
+  "name": "webproyecto",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Proyecto final de la materia de progamacion web",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "author": "Gabriel Enrique Gonzalez Rodriguez, Ronald Josue Mendez Lovato, Alejandro Ernesto Renderos Mejia, Luis Carlos Orellana Jovel",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "node-sass-middleware": "0.11.0",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
